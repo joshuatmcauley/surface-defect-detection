@@ -1,0 +1,23 @@
+# Core dependencies
+PySide6>=6.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+picamera2>=0.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+scikit-image>=0.21.0
+tqdm>=4.65.0
+psutil>=5.8.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+pyyaml>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+py-cpuinfo
+seaborn>=0.11.0
+ultralytics-thop>=2.0.0
+
+# Raspberry Pi specific optimizations
+--extra-index-url https://www.piwheels.org/simple
+--find-links https://www.piwheels.org/simple 
